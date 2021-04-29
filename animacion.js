@@ -1,26 +1,14 @@
 
 var t1 = just.animate({
-   targets: ".ball1",
-   duration: 1000,
-   props: {
-     innerHTML: ['TECNM', 'ITP'] 
-   },
-   web: {
-      transform: [
-         { offset: 1, value: "scale(1, 1)" },
-         { offset: 2, value: "scale(1, 1)" },
-         { offset: 1, value: "scale(.2, .20)" },
-         { offset: 2, value: "scale(.1, .30)" },
-         { offset: 1, value: "scale(.2, .40)" },
-         { offset: 2, value: "scale(.1, .50)" },
-         { offset: 1, value: "scale(.2, .60)" },
-         { offset: 2, value: "scale(.1, .70)" },
-         { offset: 1, value: "scale(.2, .80)" },
-         { offset: 2, value: "scale(.1, .90)" },
-         { offset: 2, value: "scale(1, 1 )" }
-      ]
-   }
-});
+    targets: ".ball1",
+    duration: 1524,
+    props: {
+      innerHTML: ['TECNM', 'ITP'] 
+    },
+    web: {
+        rotateX: [24,1800]
+    }
+ });
 
  var t2 = just.animate({
    targets: ".ball2",
@@ -101,16 +89,29 @@ var t5 = just.animate({
     }
  });
 
+
 var t6 = just.animate({
-   targets: ".ball6",
-   duration: 1524,
-   props: {
-     innerHTML: ['TECNM', 'ITP'] 
-   },
-   web: {
-       rotateX: [24,1800]
-   }
-});
+    targets: ".ball6",
+    duration: 1000,
+    props: {
+      innerHTML: ['TECNM', 'ITP'] 
+    },
+    web: {
+       transform: [
+          { offset: 1, value: "scale(1, 1)" },
+          { offset: 2, value: "scale(1, 1)" },
+          { offset: 1, value: "scale(.2, .20)" },
+          { offset: 2, value: "scale(.1, .30)" },
+          { offset: 1, value: "scale(.2, .40)" },
+          { offset: 2, value: "scale(.1, .50)" },
+          { offset: 1, value: "scale(.2, .60)" },
+          { offset: 2, value: "scale(.1, .70)" },
+          { offset: 1, value: "scale(.2, .80)" },
+          { offset: 2, value: "scale(.1, .90)" },
+          { offset: 2, value: "scale(1, 1 )" }
+       ]
+    }
+ });
 
 var t7 = just.animate({
    targets: ".ball7",
@@ -154,12 +155,19 @@ var t9 = just.animate({
 });
 
 var t10 = just.animate({
-   targets: ".ball10",
-   duration: 1524,
-   props: {
-     innerHTML: ['TECNM', 'ITP'] 
-   },
-   web: {
-       marginLeft: [0,1024]
-   }
-});
+    targets: ".ball10",
+    duration: 1300,
+    props: {
+      innerHTML: ['TECNM', 'ITP'] 
+    },
+    web: {
+       transform: [
+          { offset: 0, value: "scale(1, 1)" },
+          { offset: 0.3, value: "scale(.75, .75)" },
+          { offset: 0.4, value: "scale(.50, .50)" },
+          { offset: 0.5, value: "scale(.25, .25)" },
+          { offset: 0.5, value: "scale(.125, .125)" },
+          { offset: 1, value: "scale(1, 1)" }
+       ]
+    }
+ });
